@@ -6,6 +6,7 @@ title: Reverse Linked List in Two Ways
 A linked list can be reversed either iteratively or recursively. Could you implement both?
 
 ### Iteratively
+
 ```python
 # Definition for singly-linked list.
 # class ListNode(object):
@@ -36,6 +37,7 @@ class Solution(object):
 ```
 
 ### Recursively
+
 ```python
 # Definition for singly-linked list.
 # class ListNode(object):
@@ -59,4 +61,3 @@ class Solution(object):
             head.next = None
         return new_head
 ```
-
