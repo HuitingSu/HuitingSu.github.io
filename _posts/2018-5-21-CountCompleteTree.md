@@ -33,7 +33,6 @@ class Solution {
         int hright = getHeight(root.right);
         if(hleft == hright)
             return (1 << hleft) -1 + 1 + countNodes(root.right);  
-            //In java, power is 1 << pow, ^ is Bitwise exclusive OR. The precedence of << is lower than +/-.
         else
             return (1 << hright) -1 + 1 + countNodes(root.left);
         
@@ -46,4 +45,6 @@ class Solution {
 
 ```
 
+Notice: In java, power is 1 << pow, ^ is Bitwise exclusive OR. The precedence of << is lower than +/-.
 
+In this solution, I always check and compare the height of left subtree and right subtree. If they have the same height, it means the last node is in right subtree, then we don't need to traverse left subtree. If right subtree is shorter, that means the last node is in left subtree. In every step, I partition the tree into 2 subtree, so there are log(n) steps. In every step, getHeight is log(n). The time complexity is log(n)*log(n). 
