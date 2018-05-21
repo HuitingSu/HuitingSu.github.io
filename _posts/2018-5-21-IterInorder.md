@@ -1,4 +1,7 @@
-##  Binary Tree Inorder Traversal (Iterative)
+---
+layout: post
+title: Binary Tree Inorder Traversal (Iterative)
+---
 
 ```java
 /**
