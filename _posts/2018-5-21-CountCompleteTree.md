@@ -1,3 +1,8 @@
+---
+layout: post
+title: Count Nodes in complete tree
+---
+
 Count the number of nodes in a complete binary tree.
 
 Solution 1:
