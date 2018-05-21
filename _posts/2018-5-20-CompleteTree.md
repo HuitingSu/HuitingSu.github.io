@@ -1,3 +1,8 @@
+---
+layout: post
+title: Check Complete Tree
+---
+
 Decide whether the binary tree is complete or not.
 
 ```java
