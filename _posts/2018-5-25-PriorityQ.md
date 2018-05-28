@@ -2,6 +2,7 @@
 layout: post
 title: kth Smallest Number
 ---
+For min_heap, the comparator should be implemented in such a way that it returns negative int if first argument is less than the second one and returns zero if they are equal and positive int if first argument is greater than second one.
 
 ```java
 class Solution {
